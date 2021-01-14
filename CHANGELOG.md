@@ -3,9 +3,15 @@
 All notable changes to this project are documented in this file. 
 
 ## Release Notes
+### Version 4.1.0 (build 2101.1401)
+#### New features and changes
+- Updated activity type for open water swim.
+- Added activity type for cross-country run.
+- Added support to unzip encrypted ZIP files on macOS
+
 ### Version 4.0.0 (build 2010.2902)
 #### New features and changes
-- Added support to convert from an encrypted Huawei Health ZIP file. As of late october 2020, the Huawei Health app
+- Added support to convert from an encrypted Huawei Health ZIP file. As of late October 2020, the Huawei Health app
 obligates to provide a password to encrypt the requested data with. You must provide this password in the new command
 line argument --password. The used encryption method also requires the installation of a 7-Zip stand-alone version to be 
 able to decrypt the data. For more information, see the updated installation and conversion procedures in the README
